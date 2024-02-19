@@ -1,2 +1,2 @@
 #!/bin/bash
-gpp $CFILE -o c
+gpp -E $CFILE -o c
