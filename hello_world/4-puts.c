@@ -1,11 +1,9 @@
 #include <stdio.h> 
 
 /** 
- * main - Prints "programming is like building a multilingual puzzle, followed bya new line. 
- *
+ * main - Entry point
  *
  * Return: 0 on success
- *
  */
 int main(void)
 {
