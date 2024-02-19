@@ -1,7 +1,6 @@
 #include <stdio.h> 
 /**
  * main - This program prints a new line with the puts function
- n
  * Return: 0 (success)
  */
 int main(void)
