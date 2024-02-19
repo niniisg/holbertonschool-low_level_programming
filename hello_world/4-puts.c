@@ -1,7 +1,8 @@
 #include <stdio.h> 
 
 /** 
- * main -Entry point 
+ * main - Prints "programming is like building a multilingual puzzle, followed bya new line. 
+ *
  *
  * Return: 0 on success
  *
