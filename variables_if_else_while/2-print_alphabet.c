@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main -lowercase alphabet
+ * main -lowercase alphabet
  *
- * Return:0 for (Success)
+ * Return: 0 for (Success)
  */
 
 int main(void)
@@ -12,9 +12,9 @@ int main(void)
 
 	for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
 	{
-		/*print the value of the variable*/
 		putchar(alphabet);
 	}
 	putchar('\n');
-	return(0);
+
+	return (0);
 }
