@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-*main - positive or negative variable of n *
+* main - positive or negative variable of n
 *
-*Return: Always (0) (Success)
+* Return: Always (0) (Success)
 */
 
 int main(void)
