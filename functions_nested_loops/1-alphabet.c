@@ -1,9 +1,9 @@
-#include "main.h"
+#include "main.hi"
 
 /**
  * main -prints the alphabet in lowercase
  *
- * Return: 0 for (Success)
+ *
  */
 
 int main(void)
@@ -15,7 +15,6 @@ int main(void)
 	{
 		_putchar(c);
 	}
-	_putchar('\n');
-return (0)
+	return (0)
 
 }
