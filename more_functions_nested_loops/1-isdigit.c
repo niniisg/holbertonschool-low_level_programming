@@ -2,6 +2,8 @@
 
 /**
  * _isdigit- Checks if a character is uppercase.
+ * @c: int to checks
+ *
  * Return: on success 1
  */
 
