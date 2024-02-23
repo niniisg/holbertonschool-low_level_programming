@@ -12,6 +12,5 @@
 
 	_putchar('\n,');
 
-	Return(0)
 }
 
