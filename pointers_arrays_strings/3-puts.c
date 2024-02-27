@@ -3,6 +3,7 @@
 /**
  * _puts - prints string
  * @str: input string to print
+ * Description: prints string to stdout
  * Return: nothing
  **/
 
