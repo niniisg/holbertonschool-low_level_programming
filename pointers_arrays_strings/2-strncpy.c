@@ -4,7 +4,7 @@
  * _strcpy -copies the firts n characters
  * @dest: destination string
  * @src: sorce string
- * @n: the number of bytes to copy
+ * @n: number of bytes to copy
  *
  * Return: pointer to the resulting string
  */
@@ -14,7 +14,7 @@ char *_strncpy(char *dest, char *src, int  n)
 
 	i = o;
 
-	while (src[i] != '0' && i < n)
+	while (src[i] != '\0' && i < n)
 	{
 		dest[i] = src[i];
 		i++;
