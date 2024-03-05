@@ -3,12 +3,10 @@
 /**
  * _puts_recursion - function like puts();
  * @s: input
- * Return: on success 1
- *
  */
 void _puts_recurion(char *s)
 {
-	if (*s == 0)
+	if (*s == '\0')
 	{
 		_putchar('\n');
 		return;
