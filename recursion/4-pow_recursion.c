@@ -2,11 +2,11 @@
 
 /**
  *
- *  _pow_recursion - raises x to the power of y
- *  @x: number integer
+ *  _pow_recursion - return the value of x raised to the power of y
+ *  @x: value to raise
  *  @y: power
  *
- *  Return: on success 1
+ *  Return: result of the power
  */
 int _pow_recursion(int x,int y)
 {
