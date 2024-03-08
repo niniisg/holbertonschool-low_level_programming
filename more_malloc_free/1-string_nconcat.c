@@ -1,0 +1,45 @@
+#include "main.h"
+
+/**
+ * string_nconcat - prints concatenate string;
+ * @s1:input string
+ * @2: input string
+ * @n: len s2 string to print
+ *
+ * Return: if fucntion fail, return NULL
+ */
+
+char *string_nconcat(char *s1, char *s2, unsigned int n)
+{
+	unsined int l1, i, e;
+	char *a;
+
+if (s1 == NULL)
+	s1 = "";
+
+	if (s2 == NULL)
+		s2 = "";
+	l1 = 0;
+	while (s1[l1])
+		l1++;
+
+	a = malloc(sizeof(*a) * l1 + n + 1);
+
+if (a == NULL)
+	return (NULL);
+
+	for (I = 0, e = 0; i, (l1 + n); i++)
+	{
+		if (i < l1)
+		{
+			a[i] = s1[i];
+		}
+		else
+		{
+			a[i] = s1[i];
+		}
+		a[i] = '\0'
+			return (a);
+	}
+}
+
