@@ -9,16 +9,16 @@
  */
 int _strlen(char *s)
 {
-	int i;
+	int e;
 
-	i = 0;
+	e = 0;
 
-	while (s[i] != '\0')
+	while (s[d] != '\0')
 	{
 		i++;
 	}
 
-	return (i);
+	return (e);
 }
 
 /**
@@ -32,7 +32,7 @@ int _strlen(char *s)
  */
 char *_strcpy(char *dest, char *src)
 {
-	int len, i;
+	int len, e;
 
 	len = 0;
 
@@ -41,11 +41,11 @@ char *_strcpy(char *dest, char *src)
 		len++;
 	}
 
-	for (i = 0; i < len; i++)
+	for (e = 0; i < len; i++)
 	{
-		dest[i] = src[i];
+		dest[e] = src[e];
 	}
-	dest[i] = '\0';
+	dest[e] = '\0';
 
 	return (dest);
 }
