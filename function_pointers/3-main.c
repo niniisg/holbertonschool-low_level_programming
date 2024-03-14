@@ -30,6 +30,7 @@ int main(int argc, char *argv[])
 	printf("Error\n");
 	exit(99);
 	}
+
 	k = flor(h, g);
 	printf("%d\n", k);
 	return (0);
