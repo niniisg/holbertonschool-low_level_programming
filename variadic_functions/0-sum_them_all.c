@@ -5,7 +5,7 @@
  * sum_them_all - returns the sum
  * @n: pass the number of parameters
  *
- * Return: 0 if n == 0
+ * Return: 0
  */
 
 
