@@ -13,7 +13,7 @@ size_t print_dlistint(const dlistint_t *h)
 
 	while (h)
 	{
-		if (!h->n)
+		if (h->n == 0)
 		{
 			printf("nil");
 		}
