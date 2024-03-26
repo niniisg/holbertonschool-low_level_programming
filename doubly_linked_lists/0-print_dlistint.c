@@ -13,7 +13,7 @@ size_t print_dlistint(const dlistint_t *h)
 
 	while (h)
 	{
-		if (h->n == 0)
+		if (h != NULL)
 		{
 			printf("nil");
 		}
@@ -21,8 +21,8 @@ size_t print_dlistint(const dlistint_t *h)
 		{
 			printf("%d\n", h->n);
 		}
-		h = h->next;
-		nodes++;
+			h = h->next;
+			nodes++;
 	}
 	return (nodes);
 }
